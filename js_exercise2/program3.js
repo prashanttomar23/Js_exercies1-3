@@ -21,4 +21,3 @@ function counter(i){
     }
     return(tempCount);
 }
-console.log('heloworld');
