@@ -8,16 +8,79 @@
 
 </head>
 <body>
+    <h3>JS-Exercise2 Solutions Below</h3>
+    <ol>
+        <li>Write​ ​ a ​ ​ JavaScript​ ​ function​ ​ to​ ​ get​ ​ the​ ​ first​ ​ and​ ​ last​ ​ element​ ​ of​ ​ an​ ​ array.​ ​ Passing​ ​ a parameter​ ​ 'n'​ ​ will​ ​ return​ ​ the​ ​ first​ ​ 'n'​ ​ elements​ ​ of​ ​ the​ ​ array​ ​ and​ ​ last​ ​ ‘n’​ ​ elements​ ​ of​ ​ the array.</li> 
+        <li> Write​ ​ a ​ ​ JavaScript​ ​ program​ ​ which​ ​ accepts​ ​ a ​ ​ number​ ​ as​ ​ input​ ​ and​ ​ insert​ ​ dashes​ ​ (-) between​ ​ each​ ​ two​ ​ even​ ​ numbers.</li>
+        <li> Write​ ​ a ​ ​ JavaScript​ ​ program​ ​ to​ ​ find​ ​ the​ ​ most​ ​ frequent​ ​ item​ ​ of​ ​ an​ ​ array.</li>
+        <li> Write​ ​ a ​ ​ JavaScript​ ​ program​ ​ to​ ​ shuffle​ ​ an​ ​ array.</li>
+        <li>Write​ ​ a ​ ​ JavaScript​ ​ program​ ​ to​ ​ compute​ ​ the​ ​ union​ ​ of​ ​ two​ ​ arrays,​ ​ and​ ​ Write​ ​ a ​ ​ JavaScript function​ ​ to​ ​ find​ ​ the​ ​ difference​ ​ of​ ​ two​ ​ arrays.</li>
+        <li>Write​ ​ a ​ ​ JavaScript​ ​ function​ ​ to​ ​ fill​ ​ an​ ​ array​ ​ with​ ​ values​ ​ (numeric,​ ​ string​ ​ with​ ​ one character)​ ​ on​ ​ supplied​ ​ bounds.
+            console.log(num_string_range('a',​ ​ "z",​ ​ 2));
+            ["a",​ ​ "c",​ ​ "e",​ ​ "g",​ ​ "i",​ ​ "k",​ ​ "m",​ ​ "o",​ ​ "q",​ ​ "s",​ ​ "u",​ ​ "w",​ ​ "y"]</li> 
+        <li> Write​ ​ a ​ ​ JavaScript​ ​ function​ ​ to​ ​ get​ ​ the​ ​ month​ ​ name​ ​ from​ ​ a ​ ​ particular​ ​ date.</li>
+
+        <li>Write​ ​ a ​ ​ JavaScript​ ​ function​ ​ to​ ​ get​ ​ difference​ ​ between​ ​ two​ ​ dates,​ ​ from​ ​ maximum​ ​ unit​ ​ to minimum​ ​ unit.</li>
+
+        <li>Write​ ​ a ​ ​ JavaScript​ ​ function​ ​ to​ ​ convert​ ​ a ​ ​ Unix​ ​ timestamp​ ​ to​ ​ time.</li> 
+
+        <li> Write​ ​ a ​ ​ JavaScript​ ​ function​ ​ to​ ​ get​ ​ time​ ​ differences​ ​ in​ ​ years,​ ​ months,​ ​ weeks,​ ​ days,​ ​ hours and​ ​ minutes​ ​ between​ ​ two​ ​ dates.</li>
+        For example:
+        22 years 11 months 14 days
+        or 275 months 14 days
+        or 1197 weeks 4 days
+        or 8,383 days
+        or 201,192 hours
+        or 12,071,520 minutes
+    </ol>
+    <h4 style="font-family:  Calibri;">All outputs are in Console</h4>
     <div class="buttons"> 
         <button  onclick="program1()">Program1</button>
         <button  onclick="program2()">Program2</button>
         <button  onclick="program3()">Program3</button>
-        <button  onclick="Suffle()">Program4-Suffle</button>
+        <button  onclick="program4()">Program4</button>
+        <button  onclick="program5()">Program5</button>
+        <button  onclick="program6()">Program6</button>
+        <button  onclick="program7()">Program7</button>
+        <button  onclick="program8()">Program 8,9,10</button>
     </div>
+    <div>
+        <li style="margin-top: 30px;">Select Dates for Program 8,9,10</li>
+        <div style="margin-top: 10px; margin-bottom: 30px;">
+            <input type="date" id='date1'></input>   
+            <input type="date" id='date2'></input>
+        </div>
+    </div>
+    <div class="buttons"> 
+        <button  onclick="program11()">Program11</button>
+        <button  onclick="program12()">Program12</button>
+        <button  onclick="program13()">Program13</button>
+        <button  onclick="program14()">Program14</button>
+        <button  onclick="program15()">Program15</button>
+        <button  onclick="program16()">Program16</button>
+        <button  onclick="program17()">Program17</button>
+        <button  onclick="program18()">Program18</button>
+        <button  onclick="program19()">Program19</button>
+        <button  onclick="program20()">Program20</button>
+    </div>
+    
     <script src="program1.js"></script>
     <script src="program2.js"></script>
     <script src="program3.js"></script> 
     <script src="program4.js"></script>
     <script src="program5.js"></script>
+    <script src="program6.js"></script>
+    <script src="program7.js"></script>
+    <script src="program8_9_10.js"></script>
+    <script src="program11.js"></script>
+    <script src="program12.js"></script>
+    <script src="program13.js"></script>
+    <script src="program14.js"></script>
+    <script src="program15.js"></script>
+    <script src="program16.js"></script>
+    <script src="program17.js"></script>
+    <script src="program18.js"></script>
+    <script src="program19.js"></script>
+    <script src="program20.js"></script>
 </body>
 </html>
