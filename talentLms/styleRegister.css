@@ -1,0 +1,64 @@
+.loginForm{
+    margin: auto;
+    max-width: 450px;
+    min-width: 250px;
+    margin-top: 100px;
+    padding-bottom: 20px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 5px 3px rgba(158, 236, 255, 0.4);
+    max-height: 260px;
+    min-height: 260px;
+}
+#userLogin{
+    background-color: rgb(0, 169, 211);
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    margin: 0px;
+}
+.formElements{
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 15px;
+    
+    
+}
+
+#userPassword ,#userName,#userConfPassword{
+    
+    font-size: 18px;
+    margin-top: 5px;
+    max-width: 90%;;
+   
+
+}
+.registerAsElements{
+    margin: 10px 10%;
+}
+#register{
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    font-size: 18px;
+    margin-bottom: 15px;
+    
+    
+}
+#register:hover{
+    text-align: center;
+    background-color: rgb(43, 175, 228);
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 15px;
+}
+#registerAs{
+    font-size: 17px;
+
+}
+.userType {
+    margin: 10px 8%;}
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}

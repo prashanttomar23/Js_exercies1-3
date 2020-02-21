@@ -1,0 +1,52 @@
+.loginForm{
+    margin: auto;
+    max-width: 450px;
+    min-width: 250px;
+    margin-top: 100px;
+    padding-bottom: 20px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 5px 3px rgba(255, 213, 158, 0.4);
+    max-height: 260px;
+    min-height: 260px;
+}
+#userLogin{
+    background-color: rgb(211, 119, 0);
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    margin: 0px;
+}
+.formElements{
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 30px;
+    
+    
+}
+
+
+#userPassword ,#userName{
+    
+    font-size: 20px;
+    margin-top: 5px;
+    max-width: 90%;;
+   
+
+}
+.userType {
+    margin: 30px 15%;
+    
+    
+}
+#login{   
+    background-color: rgb(238, 102, 24);
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    border-width: 1px;
+}
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}

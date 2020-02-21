@@ -1,0 +1,30 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form >
+        <div class="formElements">
+            <input id="userName" type="text" placeholder="Enter Username"><br>
+            <input id="userPassword" type="password" placeholder="Enter password"><br>
+            <input id="userConfPassword" type="password" placeholder="Confirm password"><br>
+            <div class="registerAsElements">
+                <a id="registerAs">Register as</a>
+                <label for="admin">Admin</label>
+                <input type="radio" id="admin" name="radio" value="admin">
+                <label for="student">Student</label>
+                <input type="radio" id="student" name="radio" value="student">
+            </div>
+            <div class="flex-container userType">
+                <button id="register" onclick="registered()">Register</button><br>
+                <a href="login.html"> Back to login</a>
+            </div>                 
+        </div>
+                         
+        
+    </form>
+    <script src="test.js"></script>
+</body>
+</html>
