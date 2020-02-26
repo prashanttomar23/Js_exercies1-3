@@ -17,6 +17,7 @@ function registered() {
         user = {};
             user.Name=idUser;
             user.Password = pswdUser;
+            
             user.IsAdmin = false;
             if (document.getElementById("admin").checked) {
                 user.IsAdmin = true;

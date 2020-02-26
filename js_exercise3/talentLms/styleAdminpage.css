@@ -1,0 +1,147 @@
+
+
+.navItems{
+    display: flex;
+    background-color: rgb(0, 153, 255);
+    margin: 0px;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    font-family: fantasy;   
+    align-items: baseline;
+}
+#logoutButton:link,#logoutButton:visited,#newCourse{
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    
+
+}
+#logoutButton:hover,#logoutButton:active,#newCourse:hover,#newCourse:active{
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top:11px;
+    
+    text-decoration: none;
+    background-color: rgb(13, 89, 253);
+
+}
+#studentsHeading{
+  margin:20px 20%;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  box-shadow: 1px 5px 6px  rgb(47, 47, 47);
+  padding:10px 2%;
+  min-width: 300px;
+  max-width: 500px;
+  background-color: rgb(233, 233, 233);
+  border-radius: 10px;
+}
+.users{
+  margin:20px 20%;
+  min-width: 300px;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+.userNames{
+  text-decoration: underline;
+  color: rgb(218, 237, 255);
+  font-family: Oxygen, Ubuntu, Cantarell;
+  font-weight: 500;
+}
+.userNames:hover{
+  color: rgb(0, 246, 213);
+  cursor: pointer;
+}
+.topics{
+  display: none;
+  border:1px solid rgb(10, 195, 149);
+  border-radius: 10px;
+  max-width: 500px;;
+  
+}
+
+.coursesRow:nth-child(even) {
+  background-color: rgb(60, 68, 73);
+}
+
+.coursesRow{
+  display: flex;
+  background-color: rgb(44, 49, 53);
+  
+  color: rgb(255, 255, 255);
+  font-family: fantasy;   
+  align-items: baseline;
+  justify-content: space-between;
+ 
+  min-width: 250px;
+  
+  
+}
+.courseName{
+  padding:0px 3%;
+ 
+  
+}
+
+.addButton {
+  background-color: rgba(0, 138, 92, 0.726);
+ 
+  color: rgb(255, 255, 255);
+  
+  padding: 7px 19px;
+  border: transparent;
+  
+  
+  
+}
+.delButton{
+  background-color: rgba(158, 0, 26, 0.794);
+  
+  
+  color: rgb(255, 255, 255);
+  
+  padding: 7px 10px;
+  border: transparent;
+}
+.addButton:hover,.addButton:active {
+  
+  background-color: rgb(0, 192, 128);
+  color: rgb(255, 255, 255);
+
+  padding: 7px 19px;
+  cursor: pointer;
+  border: transparent;
+}
+.delButton:hover,.delButton:active{
+  background-color: rgb(245, 41, 75);
+  
+  color: rgb(255, 255, 255);
+  
+  padding: 7px 10px;
+  cursor: pointer;
+  border: transparent;
+
+}
+.show{
+  display: block;
+}
+#firstRow{
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+    
+}
+.firstButton{
+  border-top-right-radius: 10px;  
+}
+#lastRow{
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  
+  
+  
+}
+.lastButton{
+  border-bottom-right-radius: 10px;
+}
